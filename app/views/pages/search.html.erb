@@ -1,0 +1,7 @@
+<% if @user.nil? %>
+    <p>Usuario No Encontrado</p>
+<% else %>
+    <p>Name: <%= @user.name %></p>
+    <p>edad: <%= @user.edad %></p>
+    <p>email: <%= @user.email %></p>
+<% end %>
